@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '1652082108';
+    var serviceWorkerVersion = '1040508726';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -52,7 +52,9 @@
         fbq('init', '1227725831487190');
         fbq('track', 'PageView');
 
-
+        function test2(){
+                fbq('track', 'test2', {rKey: 'rValue'});
+        }
         </script>
   <noscript><img height="1" width="1" style="display:none"
                  src="https://www.facebook.com/tr?id=1227725831487190&ev=PageView&noscript=1"
