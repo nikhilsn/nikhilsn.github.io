@@ -47535,7 +47535,7 @@ au(){return new A.t_(B.l)}}
 A.t_.prototype={
 Jf(){this.ar(new A.WU(this))
 self.funcPrint()
-self.newEvent()()},
+self.newEvent()},
 L(a){var s,r=null
 this.a.toString
 s=A.a3Y("Flutter Demo Home Page",r)
