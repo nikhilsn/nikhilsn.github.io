@@ -82,7 +82,8 @@
       }
 
      function newEvent(eventName, arguments){
-           fbq('trackCustom', eventName, arguments);
+     var finalArgs= JSON.parse(arguments)
+           fbq('trackCustom', eventName, finalArgs);
         }
   </script>
 </body>
